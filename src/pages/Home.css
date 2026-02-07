@@ -1,0 +1,41 @@
+.home {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* Search & Filter */
+
+.feed-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.feed-controls input {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.feed-controls input:focus {
+    border-color: #007bff;
+}
+
+.feed-controls select {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+/* Empty state */
+
+.empty {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}

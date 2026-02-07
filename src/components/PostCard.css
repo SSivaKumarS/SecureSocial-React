@@ -1,0 +1,67 @@
+.post {
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.visibility {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* Visibility colors */
+
+.visibility.private {
+    background: #f3f3f3;
+    color: #333;
+}
+
+.visibility.followers {
+    background: #e8f0ff;
+    color: #0d6efd;
+}
+
+.visibility.innercircle {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.time {
+    font-size: 11px;
+    color: #888;
+}
+
+.post-text {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.post-actions button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post-actions button:hover {
+    opacity: 0.7;
+}

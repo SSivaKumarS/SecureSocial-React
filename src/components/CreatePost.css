@@ -1,0 +1,57 @@
+.post-create {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.post-create textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.post-create textarea:focus {
+    border-color: #007bff;
+}
+
+.post-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.counter {
+    font-size: 12px;
+    color: #777;
+}
+
+.post-create select {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.post-create button {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post-create button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}

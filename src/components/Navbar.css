@@ -1,0 +1,100 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.nav h2 {
+    margin: 0;
+    color: #222;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav button {
+    padding: 6px 14px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.nav button:hover {
+    background: #f0f0f0;
+}
+
+.nav button.active {
+    background: #007bff;
+    color: white;
+}
+
+.badge {
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-left: 4px;
+}
+
+.theme-btn {
+    font-size: 16px;
+}
+
+
+/* Dark mode */
+
+.nav.dark {
+    background: #121212;
+    border-bottom: 1px solid #333;
+}
+
+.nav.dark h2 {
+    color: #fff;
+}
+
+.nav.dark button {
+    color: #eee;
+}
+
+.nav.dark button:hover {
+    background: #2a2a2a;
+}
+
+.nav.dark button.active {
+    background: #0d6efd;
+}
+
+
+/* Auth buttons look same as nav buttons */
+
+.nav-actions button {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Logout button */
+
+.nav-actions button:last-child {
+    background: transparent;
+}
+
+
+/* Optional auth emphasis */
+
+.nav-actions button.active {
+    font-weight: bold;
+}
