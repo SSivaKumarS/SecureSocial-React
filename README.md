@@ -1,4 +1,4 @@
-SecureScoialMedia — Privacy-First Social Media (React + Vite)
+SecureScoialMedia — Privacy-First Social Media (React + Vite) 
 
 SecureScoialMedia is a frontend-only privacy-focused social media UI built using React + Vite.
 It demonstrates account-gated access, private posts, visibility controls, and a secure chat UI, all without a backend.
